@@ -48,6 +48,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/services">Services</a>
                         </li>
+                        <li clas="nav-item">
+                            <a class="nav-link" href="/posts">Blog</a>
+                        </li>
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
