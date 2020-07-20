@@ -28,3 +28,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('posts', 'PostsController');        //Generates all of the routes we need for
                                                     //the post resource.
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
